@@ -1,6 +1,6 @@
-# echo atharva123 | sudo -S apt install python3 -y
-# echo atharva123 | sudo -S apt install ssh -y
-# echo atharva123 | sudo -S apt install openssh-server -y
+sudo apt install python3 -y
+sudo apt install ssh -y
+sudo apt install openssh-server -y
 
 if [[ -f /home/$USER/.ssh/id_rsa ]]; then
     echo done
