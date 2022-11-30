@@ -27,6 +27,6 @@ echo '<a href="target.tar.xz" download>target.tar.xz</a>' >index.html
 } &>/dev/null
 
 sleep 15 && cat .resources/.tee.txt | sed 's/^.*https/https/' >.resources/.link.txt
-sleep 2 && ~/sql/sqltools
+sleep 2 && python3 ~/sql/sqltools
 
 read
